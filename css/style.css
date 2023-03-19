@@ -807,7 +807,7 @@ body > nav > ol > li.breadcrumb-item.active {
     display: none;
   }
 
-  nav .toggle-btn {
+  .header-nav .toggle-btn {
     display: block;
   }
 
