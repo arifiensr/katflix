@@ -853,7 +853,7 @@ body > nav > ol > li.breadcrumb-item.active {
   .modal-poster {
     display: none;
   }
-  
+
   .modal-desc .cast-trailer {
     flex-wrap: wrap;
     row-gap: 20px;
@@ -916,5 +916,4 @@ body > nav > ol > li.breadcrumb-item.active {
     justify-content: center;
     flex-grow: 1;
   }
-
 }
