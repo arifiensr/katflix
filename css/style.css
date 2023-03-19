@@ -785,6 +785,7 @@ li a:hover {
 
 .footer h6 {
   margin: 0;
+  text-align: center;
 }
 
 .footer h6 .linkedin {
@@ -915,5 +916,14 @@ body > nav > ol > li.breadcrumb-item.active {
     display: flex;
     justify-content: center;
     flex-grow: 1;
+  }
+
+  .small-cards .card {
+    scale: 1.27;
+  }
+
+  .cards {
+    margin-top: 23px;
+    row-gap: 60px !important;
   }
 }
