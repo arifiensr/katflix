@@ -823,6 +823,7 @@ body > nav > ol > li.breadcrumb-item.active {
 
   .dropdown_menu {
     display: block;
+    position: fixed;
   }
 
   .c-item {
@@ -870,6 +871,7 @@ body > nav > ol > li.breadcrumb-item.active {
   .dropdown_menu {
     left: 2rem;
     width: unset;
+    position: fixed;
   }
 
   .c-item {
