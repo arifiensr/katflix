@@ -922,6 +922,10 @@ body > nav > ol > li.breadcrumb-item.active {
     scale: 1.27;
   }
 
+  .small-cards .card:hover {
+    scale: 1.35;
+  }
+
   .cards {
     margin-top: 23px;
     row-gap: 60px !important;
