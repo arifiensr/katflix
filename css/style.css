@@ -781,6 +781,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .footer h6 {
@@ -788,9 +789,18 @@ li a:hover {
   text-align: center;
 }
 
-.footer h6 .linkedin {
+.footerlink {
+  margin: 0;
+  text-align: center;
   color: var(--color-cream-);
   font-weight: 600;
+  cursor: pointer;
+}
+
+.footericon {
+  margin: 0;
+  font-size: larger;
+  color: var(--color-cream-);
 }
 
 /* * Bootstrap Breadcrumb */
