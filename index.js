@@ -21,6 +21,7 @@ function footerIcon() {
   const iconTw = `<a href="https://twitter.com/arifiensr" target='_blank'><i class='bx bxl-twitter footericon'></i></a>`
   const footer = document.querySelector('.footer')
   const newIcon = document.createElement('div')
+  newIcon.className = 'footer-icons'
 
   switch (click) {
     case 1:
@@ -35,5 +36,10 @@ function footerIcon() {
       footer.appendChild(newIcon)
       newIcon.insertAdjacentHTML('beforeend', iconTw)
       break
+    default:
+      document.querySelector('.footer-icons').remove()
+      document.querySelector('.footer-icons').remove()
+      document.querySelector('.footer-icons').remove()
+      click = 0
   }
 }
