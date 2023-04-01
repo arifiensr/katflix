@@ -43,3 +43,4 @@ function footerIcon() {
       click = 0
   }
 }
+
